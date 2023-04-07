@@ -1,6 +1,6 @@
 package cscd212classes.lab2;
 
-public class Television {
+public class Television implements Comparable {
     private final boolean fourK;
     private final String make;
     private final String model;
@@ -10,6 +10,7 @@ public class Television {
 
     public Television(final String make, final String model,
                       final boolean smart, final int screenSize, final int resolution) {
+
         if(make.isEmpty() ||model.isEmpty() || make == null || model == null ){
             throw new IllegalArgumentException();
         }
@@ -32,7 +33,8 @@ public class Television {
                       final int screenSize, final int resolution, final String make){
         this.model = model;
         this.smart = smart;
-        this.screenSize = resolution;
+        this.screenSize = screenSize;
+        this.resolution = resolution;
         this.make = make;
     }
 
@@ -62,5 +64,26 @@ public class Television {
                 " inch tv with " + this.resolution + " resolution.";
 
     }
+
+    @Override
+    public boolean equals(final Object o){
+
+    }
+
+    @Override
+    public int hashCode(){
+
+    }
+    @Override
+    public int compareTo(final Televison another){
+        if(another == null){
+            throw new IllegalArgumentException();
+        }
+
+
+
+    }
+
+
 
 }
