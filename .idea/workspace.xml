@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="039ee961-f1bd-4784-a5c7-f82b6a9f0d1a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscd212-s23-lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionModelScreenSizeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionModelScreenSizeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionResolutionMakeDescendingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionResolutionMakeDescendingComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionScreenSizeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212comparators/lab2/TelevisionScreenSizeComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680922110108</updated>
-      <workItem from="1680922111176" duration="3279000" />
+      <workItem from="1680922111176" duration="3501000" />
     </task>
     <servers />
   </component>
@@ -159,6 +153,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
