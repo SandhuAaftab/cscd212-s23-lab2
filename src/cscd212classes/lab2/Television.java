@@ -74,6 +74,8 @@ public class Television implements Comparable <Television> {
 
         if(!(o instanceof Television)) return false;
 
+        return false;
+
 
     }
 
